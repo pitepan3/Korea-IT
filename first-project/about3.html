@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First project-4</title>
+    <!-- tailwindcss CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <!-- 폰트 -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <style>
+        body {
+            font-family: "Inconsolata", sans-serif;
+        }
+    </style>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- NAV -->
+    <nav class="fixed top-0 p-2 w-full z-10 bg-black px-[120px] block group min-w-[1920px]">
+        <ul class="flex">
+            <li>
+                <a href="./index.html" class="inline-block pr-[50px] p-2 font-bold text-center text-white text-4xl">운동중독자들</a>
+            </li>
+            <li class="menu">
+                <button class="block p-2 text-center font-bold text-white text-xl mt-[8px] open-Btn">독점수입</button>
+            </li>
+            <li class="menu">
+                <a class="block p-2 text-center font-bold text-red-600 text-xl mt-[8px] open-Btn" href="./about.html">브랜드소개</a>
+            </li>
+            <li class="menu">
+                <button class="block px-[20px] p-2 text-center font-bold text-white text-xl mt-[8px] open-Btn">베르사그립</button>
+            </li>
+            <li class="menu">
+                <button class="block px-[40px] p-2 text-center font-bold text-white text-xl mt-[8px] open-Btn">각인</button>
+            </li>
+            <li class="menu">
+                <button class="block px-[20px] p-2 text-center font-bold text-white text-xl mt-[8px] open-Btn">아트클립</button>
+            </li>
+            <li class="menu">
+                <button class="block px-[20px] p-2 text-center font-bold text-white text-xl mt-[8px] open-Btn">필수ACC</button>
+            </li>
+            <li class="menu">
+                <button class="block px-[20px] p-2 text-center font-bold text-white text-xl mt-[8px] open-Btn">정품등록</button>
+                
+            </li>
+            <li class="menu">
+                <button class="block px-[20px] p-2 text-center font-bold text-white text-xl mt-[8px] open-Btn">고객문의</button>
+            </li>
+            <li>
+                <a href="#" class="block p-2 text-xs text-center text-white hover:underline mt-[10px]">로그인
+                    <p class="inline-block">ㅣ</p></a>
+            </li>
+            <li>
+                <a href="#" class="block p-2 text-xs text-center text-white hover:underline mt-[10px]">회원가입
+                    <p class="inline-block">ㅣ</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="block p-2 text-xs text-center text-white hover:underline mt-[10px]">마이페이지
+                    <p class="inline-block">ㅣ</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="block p-2 text-xs text-center text-white hover:underline mt-[10px]">장바구니
+                    <p class="bg-white text-black inline-block rounded w-[15px]">0</p>
+                    <p class="inline-block">ㅣ</p></a>
+            </li>
+            <li>
+                <a href="#" class="block p-2 text-xs text-center text-white hover:underline mt-[10px]">주문조회</a>
+            </li>
+        </ul>
+
+        <nav class="nav-Bar2 fixed left-0 top-[70px] p-2 w-full z-20 bg-black leading-8 text-center nav-Bar2 flex group-hover:h-[240px] transition-[0.5s]">
+            <ul>
+                <li class="mx-[20px] ml-[490px]">
+                    <a href="#" class="text-white hover:text-red-600 block">브랜드스토리</a>
+                    <a href="#" class="text-white hover:text-red-600 block">특허기술</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="ml-[30px]">
+                    <a href="#" class="text-white hover:text-red-600 block">익스트림</a>
+                    <a href="#" class="text-white hover:text-red-600 block">프로</a>
+                    <a href="#" class="text-white hover:text-red-600 block">핏</a>
+                    <a href="#" class="text-white hover:text-red-600 block">클래식</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="ml-[65px]">
+                    <a href="#" class="text-white hover:text-red-600 block">각인소개</a>
+                    <a href="#" class="text-white hover:text-red-600 block">주문방법</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="ml-[40px]">
+                    <a href="#" class="text-white hover:text-red-600 block">아트클립소개</a>
+                    <a href="#" class="text-white hover:text-red-600 block">커스터마이징</a>
+                    <a href="#" class="text-white hover:text-red-600 block">스승감사</a>
+                    <a href="#" class="text-white hover:text-red-600 block">헬스</a>
+                    <a href="#" class="text-white hover:text-red-600 block">애국</a>
+                    <a href="#" class="text-white hover:text-red-600 block">전통</a>
+                    <a href="#" class="text-white hover:text-red-600 block">별자리</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="ml-[20px]">
+                    <a href="#" class="text-white hover:text-red-600 block">그립패드케어</a>
+                    <a href="#" class="text-white hover:text-red-600 block">기능성가방</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="ml-[20px]">
+                    <a href="#" class="text-white hover:text-red-600 block">정품확인법</a>
+                    <a href="#" class="text-white hover:text-red-600 block">정품등록혜택</a>
+                    <a href="#" class="text-white hover:text-red-600 block">정품등록하기</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="ml-[20px]">
+                    <a href="#" class="text-white hover:text-red-600 block">FAQ</a>
+                    <a href="#" class="text-white hover:text-red-600 block">사용방법</a>
+                    <a href="#" class="text-white hover:text-red-600 block">아트클립신청</a>
+                    <a href="#" class="text-white hover:text-red-600 block">질문과 답변</a>
+                </li>
+            </ul>
+        </nav>
+    </nav>
+
+    <div class="mt-[170px] max-w-[1200px] mx-auto text-center mb-[50px]">
+        <div class="inline-block px-[25px] py-[10px] bg-black text-white text-xl cursor-pointer hover:bg-red-600 w-[150px]">익스트림</div>
+        <div class="inline-block px-[35px] py-[10px] bg-black text-white text-xl cursor-pointer hover:bg-red-600 w-[150px]">프로</div>
+        <div class="inline-block px-[35px] py-[10px] bg-black text-white text-xl cursor-pointer hover:bg-red-600 w-[150px]">핏</div>
+        <div class="inline-block px-[35px] py-[10px] bg-black text-white text-xl cursor-pointer hover:bg-red-600 w-[150px]">클래식</div>
+    </div>
+    <div class="max-w-[1200px] mx-auto text-center border-y p-[12px]">
+        <div class="text-xs inline-block text-gray-400 hover:text-black transition-[0.2s] cursor-pointer ml-[780px]">신상품</div>
+        <div class="text-xs inline-block text-gray-400">ㅣ</div>
+        <div class="text-xs inline-block text-gray-400 hover:text-black transition-[0.2s] cursor-pointer">상품명</div>
+        <div class="text-xs inline-block text-gray-400">ㅣ</div>
+        <div class="text-xs inline-block text-gray-400 hover:text-black transition-[0.2s] cursor-pointer">클릭순</div>
+        <div class="text-xs inline-block text-gray-400">ㅣ</div>
+        <div class="text-xs inline-block text-gray-400 hover:text-black transition-[0.2s] cursor-pointer">베스트</div>
+        <div class="text-xs inline-block text-gray-400">ㅣ</div>    
+        <div class="text-xs inline-block text-gray-400 hover:text-black transition-[0.2s] cursor-pointer">높은가격</div>
+        <div class="text-xs inline-block text-gray-400">ㅣ</div>
+        <div class="text-xs inline-block text-gray-400 hover:text-black transition-[0.2s] cursor-pointer">낮은가격</div>
+    </div>
+
+    <div class="max-w-[1200px] mx-auto grid grid-cols-4 mt-[50px] text-center">
+        <div>
+            <img src="https://www.undongs.com/shopimages/chojisung/0240040000032.jpg?1620101451" alt="" class="cursor-pointer">
+            <p class="text-sm">베르사그립 XTRA 패키지</p>
+            <p class="text-xs text-gray-400 p-2">베르사그립</p>
+            <p class="text-xl font-extrabold inline-block">166,800<p class="inline-block">원</p></p>
+            <p class="text-xs text-sky-300">[리뷰:1855]</p>
+        </div>
+        <div>
+            <img src="https://www.undongs.com/shopimages/chojisung/0240040000032.jpg?1620101451" alt="" class="cursor-pointer">
+            <p class="text-sm">베르사그립 XTREME 아트클립 패키지</p>
+            <p class="text-xs text-gray-400 p-2">베르사그립</p>
+            <p class="text-xl font-extrabold inline-block">195,000<p class="inline-block">원</p></p>
+            <p class="text-xs text-sky-300">[리뷰:49]</p>
+        </div>
+        <div>
+            <img src="https://www.undongs.com/shopimages/chojisung/0240050000032.jpg?1609292872" alt="" class="cursor-pointer">
+            <p class="text-sm">베르사그립 PRO 패키지</p>
+            <p class="text-xs text-gray-400 p-2">베르사그립</p>
+            <p class="text-xl font-extrabold inline-block">109,800<p class="inline-block">원</p></p>
+            <p class="text-xs text-sky-300">[리뷰:8092]</p>
+        </div>
+        <div>
+            <img src="https://www.undongs.com/shopimages/chojisung/0240050000032.jpg?1609292872" alt="" class="cursor-pointer">
+            <p class="text-sm">베르사그립 PRO 각인 패키지</p>
+            <p class="text-xs text-gray-400 p-2">베르사그립</p>
+            <p class="text-xl font-extrabold inline-block">118,800<p class="inline-block">원</p></p>
+            <p class="text-xs text-sky-300">[리뷰:529]</p>
+        </div>
+        <div class="mt-[70px]">
+            <img src="https://www.undongs.com/shopimages/chojisung/0240050000032.jpg?1609292872" alt="" class="cursor-pointer">
+            <p class="text-sm">베르사그립 PRO 아트클립 패키지</p>
+            <p class="text-xs text-gray-400 p-2">베르사그립</p>
+            <p class="text-xl font-extrabold inline-block">138,000<p class="inline-block">원</p></p>
+            <p class="text-xs text-sky-300">[리뷰:28]</p>
+        </div>
+        <div class="mt-[70px]">
+            <img src="https://www.undongs.com/shopimages/chojisung/0240060000042.jpg?1609296022" alt="" class="cursor-pointer">
+            <p class="text-sm">베르사그립 FIT 패키지</p>
+            <p class="text-xs text-gray-400 p-2">베르사그립</p>
+            <p class="text-xl font-extrabold inline-block">109,800<p class="inline-block">원</p></p>
+            <p class="text-xs text-sky-300">[리뷰:570]</p>
+        </div>
+        <div class="mt-[70px]">
+            <img src="https://www.undongs.com/shopimages/chojisung/0240060000042.jpg?1609296022" alt="" class="cursor-pointer">
+            <p class="text-sm">베르사그립 FIT 각인 패키지</p>
+            <p class="text-xs text-gray-400 p-2">베르사그립</p>
+            <p class="text-xl font-extrabold inline-block">118,800<p class="inline-block">원</p></p>
+            <p class="text-xs text-sky-300">[리뷰:66]</p>
+        </div>
+        <div class="mt-[70px]">
+            <img src="https://www.undongs.com/shopimages/chojisung/0240070000022.jpg?1609298016" alt="" class="cursor-pointer">
+            <p class="text-sm">베르사그립 CLASSIC 패키지</p>
+            <p class="text-xs text-gray-400 p-2">베르사그립</p>
+            <p class="text-xl font-extrabold inline-block">82,800<p class="inline-block">원</p></p>
+            <p class="text-xs text-sky-300">[리뷰:317]</p>
+        </div>
+        <div class="mt-[70px]">
+            <img src="https://www.undongs.com/shopimages/chojisung/0240070000022.jpg?1609298016" alt="" class="cursor-pointer">
+            <p class="text-sm">베르사그립 CLASSIC 아트클립 패키지</p>
+            <p class="text-xs text-gray-400 p-2">베르사그립</p>
+            <p class="text-xl font-extrabold inline-block">111,000<p class="inline-block">원</p></p>
+            <p class="text-xs text-sky-300">[리뷰:2]</p>
+        </div>
+    </div>
+
+
+
+    <footer class="pb-[40px] grid grid-cols-4 mx-auto text-left w-[1200px] border-b mt-[200px] border-t">
+        <div class="mt-[50px] border-r">
+            <p class="text-sm">CUSTOMER CENTER</p>
+            <p class="text-2xl py-2">☎ 070-7510-2222</p>
+            <p class="text-xs">평일 : 오전 10시 ~ 오후 6시 (토, 일, 공휴일 휴무)</p>
+            <p class="text-xs">점심시간 : 오후 12시 - 오후 1시</p>
+            <p class="text-xl pt-[20px]">운동중독자들 SNS</p>
+            <p class="text-xs pb-[10px]">Undongs Social Network Service</p>
+            <p class="flex gap-4 cursor-pointer">
+                <img src="https://www.undongs.com/design/chojisung/0772marketo/snslogo_insta.png" alt="">
+                <img src="https://www.undongs.com/design/chojisung/0772marketo/snslogo_fbook.png" alt="">
+                <img src="https://www.undongs.com/design/chojisung/0772marketo/snslogo_youtube.png" alt="">
+                <img src="https://www.undongs.com/design/chojisung/0772marketo/vg_ex_snsicon_naver_new.png" alt="">
+            </p>
+        </div>
+            
+        <div class="mt-[50px] px-[20px] border-r">
+            <p class="text-sm">BANK INFORMATION</p>
+            <p class="flex text-2xl py-[10px]">
+                <img class="w-[30px] h-[30px]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMXPMamr8Dd4WbYcGPaNABvl3pc8R3EUUOfm5FtDbVqoNjZJwIl-d2EJ96IamQnHhVPXY&usqp=CAU" alt="">
+                458301-01-383946
+            </p>
+            <p class="text-xs">은행명: 국민은행</p>
+            <p class="text-xs pb-[20px]">예금주: (주)피트니스코리아</p>
+            <p class="text-xs">실제 입금자 성함과 주문서에 작성하신</p>
+            <p class="text-xs">입금자명이 다를 경우, 반드시 고객센터로</p>
+            <p class="text-xs">연락 바랍니다.</p>
+        </div>
+
+        <div class="mt-[50px] px-[20px] border-r">
+            <p class="text-xs pb-[20px]">SHOPPING INFORMATION</p>
+            <p class="text-xs">[당일 발송 상품] 평일 오후 3시 주문/입금건 당일 출고</p>
+            <p class="text-xs pb-[20px]">(출고후 1~2일 뒤 수령)</p>
+            <p class="text-xsx">[택배사 안내]</p>
+            <p class="text xs">*CJ대한통운: 1588-1255</p>
+            <p class="text-xs cursor-pointer">▶배송조회</p>
+            <p class="text-xs">*우체국(군부대,제주,도서산간) : 1588-1300</p>
+            <p class="text-xs cursor-pointer">▶배송조회</p>
+        </div>
+
+        <div class="mt-[50px] px-[20px]">
+            <p class="text-xl">안심쇼핑몰 인증</p>
+            <div class="grid grid-cols-2">
+                <img src="https://www.undongs.com/design/chojisung/0772marketo/fotterLogo_01.jpg" alt="" class="py-[20px]">
+                <img src="https://www.undongs.com/design/chojisung/0772marketo/fotterLogo_03.jpg" alt="" class="py-[20px]">
+                <img src="https://www.undongs.com/design/chojisung/0772marketo/fotterLogo_02.jpg" alt="">
+                <img src="https://www.undongs.com/design/chojisung/0772marketo/fotterLogo_04.jpg" alt="">
+            </div>
+        </div>
+    </footer>
+    <div class="my-[50px] text-center">
+        <p class="text-xs">(주)피트니스코리아 ｜ 대표 : 조지성 ｜ 경기도 양주시 부흥로 1932 스카이프라자 7층 ｜ 사업자등록번호 : 110-81-89922 [사업자정보확인]</p>
+        <p class="text-xs">TEL : 070-7510-2222 ｜ help@undongs.com ｜ 개인정보처리관리책임 : 채승완 ｜ 이용약관 ｜ 개인정보처리방침</p>
+        <p class="text-xs">통신판매업신고번호 : 제2013-경기양주-0118호</p>
+        <p class="text-xs py-[20px]">Copyright © 운동중독자들 All Right Reserved.HOSTING BY MakeShop</p>
+    </div>
+    
+
+
+
+
+    <!-- 스크롤버튼 -->
+    <div class="right-[30px] bottom-[50px] fixed inline-block">
+        <img src="https://www.undongs.com/design/chojisung/0772marketo/kakaoChatIcon2.png" alt="" class="cursor-pointer">
+        <button class="block" id="top-btn">
+            <img src="https://www.undongs.com/design/chojisung/mobile_marketo/m_topButton2.png" alt="" class="w-[35px] mt-[6px]">
+        </button>
+        <button class="block" id="bottom-btn4">
+            <img src="https://www.undongs.com/design/chojisung/mobile_marketo/m_bottomButton2.png" alt="" class="w-[35px] mt-[6px]">
+        </button>
+    </div>
+    
+    <script src="./script.js"></script>
+
+</body>
+</html>

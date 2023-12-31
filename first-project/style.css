@@ -1,0 +1,78 @@
+/* NAV BAR */
+.menu:hover {
+    border-bottom: 10px solid white;
+    transition: 0.5s;
+}
+.nav-Bar2 {
+    height: 1px;
+    overflow: hidden;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* grip */
+.grips2 {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.section {
+    width: 1200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* images */
+#container {
+    height: 200px;
+    display: inline-flex;
+    transition: 0.2s;
+    position: relative;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* indicator */
+.indicator {
+    position: absolute;
+    bottom: 0.25rem;
+    width: 100%;
+    text-align: center;
+}
+
+.dot {
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+/* toggle class */
+.hidden {
+    visibility: hidden;
+}
+
+.active {
+    opacity: 1;
+}
+
+
+
+.swiper{width:1400px; height:220px;}
+
+
